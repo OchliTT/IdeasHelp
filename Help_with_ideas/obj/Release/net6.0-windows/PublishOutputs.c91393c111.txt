@@ -1,0 +1,5 @@
+C:\Users\1\Documents\GitHub\IdeasHelp\Help_with_ideas\bin\Release\net6.0-windows\publish\Help_with_ideas.exe
+C:\Users\1\Documents\GitHub\IdeasHelp\Help_with_ideas\bin\Release\net6.0-windows\publish\Help_with_ideas.dll
+C:\Users\1\Documents\GitHub\IdeasHelp\Help_with_ideas\bin\Release\net6.0-windows\publish\Help_with_ideas.deps.json
+C:\Users\1\Documents\GitHub\IdeasHelp\Help_with_ideas\bin\Release\net6.0-windows\publish\Help_with_ideas.runtimeconfig.json
+C:\Users\1\Documents\GitHub\IdeasHelp\Help_with_ideas\bin\Release\net6.0-windows\publish\Help_with_ideas.pdb

@@ -29,7 +29,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Label TheResult;
             this.checkedListWorkSpace = new System.Windows.Forms.CheckedListBox();
             this.GetTheResult = new System.Windows.Forms.Button();
             this.NewWorkSpace = new System.Windows.Forms.TextBox();
@@ -40,7 +39,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.AddWorkSpace = new System.Windows.Forms.Button();
             this.AddMainIdea = new System.Windows.Forms.Button();
-            TheResult = new System.Windows.Forms.Label();
+            this.TheResult = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // checkedListWorkSpace
@@ -67,16 +66,6 @@
             this.GetTheResult.Text = "Let\'s go!!";
             this.GetTheResult.UseVisualStyleBackColor = true;
             this.GetTheResult.Click += new System.EventHandler(this.GetTheResult_Click);
-            // 
-            // TheResult
-            // 
-            TheResult.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            TheResult.Location = new System.Drawing.Point(61, 268);
-            TheResult.MaximumSize = new System.Drawing.Size(400, 0);
-            TheResult.Name = "TheResult";
-            TheResult.Size = new System.Drawing.Size(289, 94);
-            TheResult.TabIndex = 3;
-            TheResult.Text = "Your challenge is waiting for you....";
             // 
             // NewWorkSpace
             // 
@@ -146,11 +135,21 @@
             this.AddMainIdea.UseVisualStyleBackColor = true;
             this.AddMainIdea.Click += new System.EventHandler(this.AddMainIdea_Click);
             // 
+            // TheResult
+            // 
+            this.TheResult.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TheResult.Location = new System.Drawing.Point(52, 254);
+            this.TheResult.Name = "TheResult";
+            this.TheResult.Size = new System.Drawing.Size(333, 160);
+            this.TheResult.TabIndex = 15;
+            this.TheResult.Text = "Your challenge is waiting for you";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TheResult);
             this.Controls.Add(this.AddMainIdea);
             this.Controls.Add(this.AddWorkSpace);
             this.Controls.Add(this.label3);
@@ -158,7 +157,6 @@
             this.Controls.Add(this.checkedListMainIdea);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.NewWorkSpace);
-            this.Controls.Add(TheResult);
             this.Controls.Add(this.GetTheResult);
             this.Controls.Add(this.checkedListWorkSpace);
             this.Name = "Form1";
@@ -172,7 +170,6 @@
 
         private CheckedListBox checkedListWorkSpace;
         private Button GetTheResult;
-        private Label TheResult;
         private TextBox NewWorkSpace;
         private Label label2;
         private Label label3;
@@ -181,5 +178,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Button AddWorkSpace;
         private Button AddMainIdea;
+        private Label TheResult;
     }
 }

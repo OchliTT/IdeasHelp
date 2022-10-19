@@ -8,13 +8,25 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		IdeasHelper|Any CPU = IdeasHelper|Any CPU
+		IdeasHelper|x64 = IdeasHelper|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Debug|x64.ActiveCfg = Debug|x64
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Debug|x64.Build.0 = Debug|x64
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.IdeasHelper|Any CPU.ActiveCfg = IdeasHelper|Any CPU
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.IdeasHelper|Any CPU.Build.0 = IdeasHelper|Any CPU
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.IdeasHelper|x64.ActiveCfg = Debug|Any CPU
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.IdeasHelper|x64.Build.0 = Debug|Any CPU
 		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Release|x64.ActiveCfg = Release|x64
+		{2ACA30D6-6D75-4BCE-8702-1D0C8CB77E84}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

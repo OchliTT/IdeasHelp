@@ -1,6 +1,4 @@
 
-
-
 namespace Help_with_ideas
 {
     using System;
@@ -44,7 +42,7 @@ namespace Help_with_ideas
                 NewMainIdea.Text = "";
 
             }
-            
+
         }
 
         private void GetTheResult_Click(object sender, EventArgs e)
@@ -55,7 +53,7 @@ namespace Help_with_ideas
             foreach (var item in checkedListWorkSpace.CheckedItems)
             {
 
-               WorkSpaces.Add(item.ToString());
+                WorkSpaces.Add(item.ToString());
             }
 
             var MainIdeas = new List<string>();
@@ -65,19 +63,22 @@ namespace Help_with_ideas
                 MainIdeas.Add(item.ToString());
             }
 
-            if ((MainIdeas.Count == 0) || (WorkSpaces.Count == 0)) {
+            if ((MainIdeas.Count == 0) || (WorkSpaces.Count == 0))
+            {
 
+                
                 TheResult.Text = "Please choose items";
 
             }
             else
-            {int indexWS = random.Next(WorkSpaces.Count);
-            int indexMI = random.Next(MainIdeas.Count);
+            {
+                int indexWS = random.Next(WorkSpaces.Count);
+                int indexMI = random.Next(MainIdeas.Count);
 
-            TheResult.Text = WorkSpaces[indexWS] + "\n" + MainIdeas[indexMI] ;
+                TheResult.Text = WorkSpaces[indexWS] + "\n" + MainIdeas[indexMI];
             }
-            
 
         }
+
     }
 }
