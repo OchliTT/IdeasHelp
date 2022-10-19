@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\source\\repos\\Help_with_ideas\\Help_with_ideas\\Help_with_ideas.csproj": {}
+    "C:\\Users\\1\\Documents\\GitHub\\IdeasHelp\\Help_with_ideas\\Help_with_ideas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\source\\repos\\Help_with_ideas\\Help_with_ideas\\Help_with_ideas.csproj": {
+    "C:\\Users\\1\\Documents\\GitHub\\IdeasHelp\\Help_with_ideas\\Help_with_ideas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\source\\repos\\Help_with_ideas\\Help_with_ideas\\Help_with_ideas.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Documents\\GitHub\\IdeasHelp\\Help_with_ideas\\Help_with_ideas.csproj",
         "projectName": "Help_with_ideas",
-        "projectPath": "C:\\Users\\1\\source\\repos\\Help_with_ideas\\Help_with_ideas\\Help_with_ideas.csproj",
+        "projectPath": "C:\\Users\\1\\Documents\\GitHub\\IdeasHelp\\Help_with_ideas\\Help_with_ideas.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\source\\repos\\Help_with_ideas\\Help_with_ideas\\obj\\",
+        "outputPath": "C:\\Users\\1\\Documents\\GitHub\\IdeasHelp\\Help_with_ideas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
